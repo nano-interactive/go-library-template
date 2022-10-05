@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "GoFilterTraffic: Race Test",
+            "label": "GoLibraryTemplate: Race Test",
             "type": "shell",
             "command": "go",
             "args": [
@@ -17,7 +17,7 @@
             "group": "test"
         },
         {
-            "label": "GoFilterTraffic: Test",
+            "label": "GoLibraryTemplate: Test",
             "type": "shell",
             "command": "go",
             "args": [
@@ -31,7 +31,7 @@
             "group": "test"
         },
         {
-            "label": "GoFilterTraffic: Format",
+            "label": "GoLibraryTemplate: Format",
             "type": "shell",
             "command": "gofumpt",
             "args": [
@@ -43,7 +43,7 @@
             "problemMatcher": []
         },
         {
-            "label": "GoFilterTraffic: Lint",
+            "label": "GoLibraryTemplate: Lint",
             "type": "shell",
             "command": "golangci-lint",
             "args": [
@@ -52,7 +52,7 @@
             "group": "none"
         },
         {
-            "label": "GoFilterTraffic: GoMod Tidy",
+            "label": "GoLibraryTemplate: GoMod Tidy",
             "type": "shell",
             "command": "go",
             "args": [
@@ -63,7 +63,7 @@
             "problemMatcher": []
         },
         {
-            "label": "GoFilterTraffic: Security Check",
+            "label": "GoLibraryTemplate: Security Check",
             "type": "shell",
             "command": "gosec",
             "args": [
